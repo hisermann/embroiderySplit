@@ -47,7 +47,7 @@ def split_pattern_by_color(filename: str) -> None:
     print("All done")
 
 
-if __name__ == "__main__()":
+if __name__ == "__main__":
     # parse arguments
     if len(sys.argv) >= 2:
         filename = sys.argv[1]
