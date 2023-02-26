@@ -35,6 +35,6 @@ GitHub page](https://github.com/EmbroidePy/pyembroidery).
 
 ## Known issues
 
-Currently, there is a color change appended to all color blocks
-except for the last one. There are no stitches in the new color, so you
+Currently, there is a color change appended to all color blocks. 
+There are no stitches in the new color, so you
 can stop the embroidery at this point.
