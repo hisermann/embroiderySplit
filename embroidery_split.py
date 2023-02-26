@@ -33,6 +33,8 @@ def split_pattern_by_color(filename: str) -> None:
         p = pe.EmbPattern()
         # add color block
         p.add_stitchblock(cb)
+        # remove colorchange or end stitch
+        p.stitches.pop()
         # add jumps that any file has same borders
         p.add_stitch_absolute(pe.JUMP, x1, y1)
         p.add_stitch_absolute(pe.JUMP, x1, y2)
